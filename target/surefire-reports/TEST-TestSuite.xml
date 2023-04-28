@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.608" tests="39" errors="0" skipped="8" failures="16">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/test-classes:/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/classes:/Users/loyoladsouza/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/loyoladsouza/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/loyoladsouza/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/loyoladsouza/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/loyoladsouza/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/loyoladsouza/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/loyoladsouza/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/loyoladsouza/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/loyoladsouza/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/loyoladsouza/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/loyoladsouza/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/loyoladsouza/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/loyoladsouza/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/loyoladsouza/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/loyoladsouza/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/loyoladsouza/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/loyoladsouza/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/loyoladsouza/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/loyoladsouza/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/loyoladsouza/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/loyoladsouza/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/loyoladsouza/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/loyoladsouza/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/loyoladsouza/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/loyoladsouza/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/loyoladsouza/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/loyoladsouza/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/loyoladsouza/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/loyoladsouza/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/loyoladsouza/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.6.v20230204-1729/jre/lib"/>
+    <property name="sun.java.command" value="/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/surefire/surefirebooter1946649217128367148.jar /Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/surefire 2023-04-28T10-25-21_121-jvmRun1 surefire6528505066567601310tmp surefire_010217488845736383273tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/test-classes:/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/classes:/Users/loyoladsouza/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/loyoladsouza/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/loyoladsouza/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/loyoladsouza/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/loyoladsouza/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/loyoladsouza/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/loyoladsouza/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/loyoladsouza/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/loyoladsouza/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/loyoladsouza/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/loyoladsouza/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/loyoladsouza/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/loyoladsouza/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/loyoladsouza/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/loyoladsouza/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/loyoladsouza/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/loyoladsouza/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/loyoladsouza/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/loyoladsouza/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/loyoladsouza/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/loyoladsouza/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/loyoladsouza/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/loyoladsouza/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/loyoladsouza/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/loyoladsouza/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/loyoladsouza/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/loyoladsouza/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/loyoladsouza/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/loyoladsouza/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/loyoladsouza/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/loyoladsouza/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/loyoladsouza/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/loyoladsouza"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Users/loyoladsouza/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.6.v20230204-1729/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project/target/surefire/surefirebooter1946649217128367148.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="loyoladsouza"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="/Users/loyoladsouza/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hd/k0sss5ss03d4db0r7qng99_40000gn/T/"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/Users/loyoladsouza/Desktop/QA/SeleniumWorkspace/RestassuredAPITesting_Employee_project"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/loyoladsouza/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.014"/>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.001"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.002"/>
+  <testcase name="checkCookies" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.001"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.031"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.009"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.001"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.002"/>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.056">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentLength(TC002_Get_Single_Employee_Record.java:95)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:30  INFO EmployeesRestAPI:113 - ************* Finished TC001_Get_All_Employees ************
+2023-04-28 10:25:30  INFO EmployeesRestAPI:22 - ************* Started TC002_Get_Single_Employee_Record ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:89 - ************* Checking Content Length ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:91 - Content Length is ==>595
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.003">
+    <failure message="expected [application/json] but found [text/html; charset=UTF-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:75)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:36  INFO EmployeesRestAPI:71 - ************* Checking Content Type ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:74 - Content Type is ==>text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.023">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResponseBody(TC002_Get_Single_Employee_Record.java:36)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:36  INFO EmployeesRestAPI:32 - ************* Checking Response Body ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:35 - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.001"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:45)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:36  INFO EmployeesRestAPI:41 - ************* Checking Status Code ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:44 - Status Code is ==>429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.005">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusLine(TC002_Get_Single_Employee_Record.java:66)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:36  INFO EmployeesRestAPI:63 - ************* Checking Status Line ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:65 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.007">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentLength(TC003_Post_Employee_Record.java:113)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:36  INFO EmployeesRestAPI:100 - ************* Finished TC002_Get_Single_Employee_Record ************
+2023-04-28 10:25:36  INFO EmployeesRestAPI:28 - ************* Started TC003_Post_Employee_Record ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:107 - ************* Checking Content Length ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:109 - Content Length is ==>595
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.002">
+    <failure message="expected [application/json] but found [text/html; charset=UTF-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:93)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:41  INFO EmployeesRestAPI:89 - ************* Checking Content Type ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:92 - Content Type is ==>text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.009">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkResponseBody(TC003_Post_Employee_Record.java:52)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:41  INFO EmployeesRestAPI:48 - ************* Checking Response Body ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:51 - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.002"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:63)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:41  INFO EmployeesRestAPI:59 - ************* Checking Status Code ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:62 - Status Code is ==>429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.002">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusLine(TC003_Post_Employee_Record.java:84)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:41  INFO EmployeesRestAPI:81 - ************* Checking Status Line ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:83 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.003">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentLength(TC004_Put_Employee_Record.java:113)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:41  INFO EmployeesRestAPI:118 - ************* Finished TC003_Post_Employee_Record ************
+2023-04-28 10:25:41  INFO EmployeesRestAPI:28 - ************* Started TC004_Put_Employee_Record ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:107 - ************* Checking Content Length ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:109 - Content Length is ==>595
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.004">
+    <failure message="expected [application/json] but found [text/html; charset=UTF-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:93)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:47  INFO EmployeesRestAPI:89 - ************* Checking Content Type ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:92 - Content Type is ==>text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.003">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:52)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:47  INFO EmployeesRestAPI:48 - ************* Checking Response Body ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:51 - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.006"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.002">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:63)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:47  INFO EmployeesRestAPI:59 - ************* Checking Status Code ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:62 - Status Code is ==>429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.002">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusLine(TC004_Put_Employee_Record.java:84)
+</failure>
+    <system-out><![CDATA[2023-04-28 10:25:47  INFO EmployeesRestAPI:81 - ************* Checking Status Line ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:83 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="deleteEmploye" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0.564">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.deleteEmploye(TC005_Delete_Employee_Record.java:36)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.deleteEmploye(TC005_Delete_Employee_Record.java:36)
+]]></failure>
+    <system-out><![CDATA[2023-04-28 10:25:47  INFO EmployeesRestAPI:118 - ************* Finished TC004_Put_Employee_Record ************
+2023-04-28 10:25:47  INFO EmployeesRestAPI:25 - ************* Started TC005_Delete_Employee_Record ************
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

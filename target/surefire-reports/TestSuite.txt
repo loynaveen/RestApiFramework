@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 16, Errors: 0, Skipped: 8, Time elapsed: 26.608 s <<< FAILURE! - in TestSuite
+checkContentLength(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.056 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentLength(TC002_Get_Single_Employee_Record.java:95)
+
+checkContentType(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:75)
+
+checkResponseBody(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResponseBody(TC002_Get_Single_Employee_Record.java:36)
+
+checkStatusCode(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:45)
+
+checkStatusLine(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusLine(TC002_Get_Single_Employee_Record.java:66)
+
+checkContentLength(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentLength(TC003_Post_Employee_Record.java:113)
+
+checkContentType(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:93)
+
+checkResponseBody(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkResponseBody(TC003_Post_Employee_Record.java:52)
+
+checkStatusCode(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:63)
+
+checkStatusLine(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusLine(TC003_Post_Employee_Record.java:84)
+
+checkContentLength(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentLength(TC004_Put_Employee_Record.java:113)
+
+checkContentType(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:93)
+
+checkResponseBody(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:52)
+
+checkStatusCode(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:63)
+
+checkStatusLine(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusLine(TC004_Put_Employee_Record.java:84)
+
+deleteEmploye(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.564 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.deleteEmploye(TC005_Delete_Employee_Record.java:36)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.deleteEmploye(TC005_Delete_Employee_Record.java:36)
+

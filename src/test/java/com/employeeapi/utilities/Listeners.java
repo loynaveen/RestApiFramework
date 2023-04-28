@@ -55,7 +55,7 @@ public class Listeners extends TestListenerAdapter {
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		test = extent.createTest(result.getName()); // create new entry in th report
+		test = extent.createTest(result.getName()); // create new entry in the report
 		test.log(Status.SKIP, "Test Case SKIPPED IS " + result.getName());
 	}
 

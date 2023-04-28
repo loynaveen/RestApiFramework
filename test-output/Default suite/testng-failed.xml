@@ -6,8 +6,8 @@
       <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
         <methods>
           <include name="checkContentLength"/>
-          <include name="setUp"/>
           <include name="checkStatusLine"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
           <include name="checkServerType"/>
           <include name="checkResponseBody"/>
